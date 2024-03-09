@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "530853393044",
+    "project_id": "shirarotberg2024",
+    "storage_bucket": "shirarotberg2024.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530853393044:android:56d1628a99758180ec7a81",
+        "android_client_info": {
+          "package_name": "com.example.firebaseexample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWP1uMaxF9xc_f0bgep83IzZCYVT98c_w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
