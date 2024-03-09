@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#6ECACA"
+    android:background="#F44133"
     tools:context=".MainActivity">
 
     <TextView
@@ -15,7 +15,7 @@
         android:background="#6ECACA"
         android:fontFamily="sans-serif-black"
         android:text="Help Me!"
-        android:textColor="#0A1451"
+        android:textColor="#980C37"
         android:textSize="96sp"
         app:layout_constraintBottom_toTopOf="@+id/imageview_egg"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,10 +40,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="23dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginBottom="20dp"
         android:fontFamily="sans-serif-black"
-        android:text="10"
-        android:textSize="34sp"
+        android:text="Hello"
+        android:textSize="48sp"
         app:layout_constraintBottom_toTopOf="@+id/button_reset"
         app:layout_constraintEnd_toEndOf="@+id/button_reset"
         app:layout_constraintTop_toBottomOf="@+id/imageview_egg" />
@@ -52,7 +52,7 @@
         android:id="@+id/button_reset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="84dp"
+        android:layout_marginBottom="24dp"
         android:onClick="reset"
         android:text="Reset"
         app:layout_constraintBottom_toBottomOf="parent"
