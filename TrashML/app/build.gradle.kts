@@ -38,14 +38,8 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 
-    // Import the BoM for the Firebase platform
-    implementation(platform("com.google.firebase:firebase-bom:32.7.4"))
-
-    // Add the dependency for the Firebase ML model downloader library
-    // When using the BoM, you don't specify versions in Firebase library dependencies
-    implementation("com.google.firebase:firebase-ml-modeldownloader")
-
-    // Also add the dependency for the TensorFlow Lite library and specify its version
-    implementation("org.tensorflow:tensorflow-lite:2.3.0")
+    // Object detection & tracking feature
+    implementation("com.google.mlkit:object-detection-custom:17.0.1")
+    implementation("com.google.mlkit:object-detection:17.0.1")
 
 }
