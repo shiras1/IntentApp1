@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="welcome_to_water_tracker">Welcome to Water Tracker</string>
 </resources>
